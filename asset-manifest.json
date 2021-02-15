@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Reactex/static/css/main.53ba927a.chunk.css",
+    "main.js": "/Reactex/static/js/main.a3c8cad0.chunk.js",
+    "main.js.map": "/Reactex/static/js/main.a3c8cad0.chunk.js.map",
+    "runtime-main.js": "/Reactex/static/js/runtime-main.b03c3d6a.js",
+    "runtime-main.js.map": "/Reactex/static/js/runtime-main.b03c3d6a.js.map",
+    "static/css/2.150d169a.chunk.css": "/Reactex/static/css/2.150d169a.chunk.css",
+    "static/js/2.f387930f.chunk.js": "/Reactex/static/js/2.f387930f.chunk.js",
+    "static/js/2.f387930f.chunk.js.map": "/Reactex/static/js/2.f387930f.chunk.js.map",
+    "index.html": "/Reactex/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/Reactex/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.53ba927a.chunk.css.map": "/Reactex/static/css/main.53ba927a.chunk.css.map",
+    "static/js/2.f387930f.chunk.js.LICENSE.txt": "/Reactex/static/js/2.f387930f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b03c3d6a.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.f387930f.chunk.js",
+    "static/css/main.53ba927a.chunk.css",
+    "static/js/main.a3c8cad0.chunk.js"
+  ]
+}
