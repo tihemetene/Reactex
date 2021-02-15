@@ -1,20 +1,25 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
+import caixaGrupo from './components/Card_grupo';
 import Header from './components/Header';
 import index from './pages';
-import Features from './pages/Features';
+import App from './pages/atividade4';
 
 const routes = [{
   path: '/',
   name: 'Home',
   component: index,
   exact: true,
-},
-{
-  path: '/features',
-  name: 'Features',
-  component: Features,
+}, {
+  path: '/Grupo',
+  name: 'Grupo',
+  component: caixaGrupo,
+  exact: true,
+}, {
+  path: '/Atividade4',
+  name: 'Atividade 4',
+  component: App,
   exact: true,
 }];
 
