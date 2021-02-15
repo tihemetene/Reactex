@@ -10,7 +10,7 @@ const Caixa = ({ info, cardTitle }) => (
         { info }
         {' '}
       </Button>
-      <div xs={6} md={4} className="text-center texto">
+      <div className="text-center texto">
         There are no items yet.
         {' '}
         <Image className="rounded mx-auto d-block " src="https://media0.giphy.com/media/LmNwrBhejkK9EFP504/200.gif" roundedCircle />

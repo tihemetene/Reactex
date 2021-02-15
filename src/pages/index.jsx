@@ -1,11 +1,11 @@
 import React from 'react';
-import Caixa from './components/Card';
-import './components/index.css';
+import Caixa from '../components/Card';
+import '../components/index.css';
 
-const App = () => (
+const index = () => (
   <div className="App">
     <Caixa info="ADD INFO" cardTitle="Home"> </Caixa>
   </div>
 );
 
-export default App;
+export default index;

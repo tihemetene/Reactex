@@ -1,11 +1,14 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
-const Header = ({ title, home }) => (
+const Header = ({ title, routes = [] }) => (
   <Navbar className="preto" variant="dark">
-    <Navbar.Brand className="titulo" href="#home">{title}</Navbar.Brand>
+    <Navbar.Brand href="/">{title}</Navbar.Brand>
     <Nav className="mr-auto">
-      <Nav.Link className="casa" href="#home">{home}</Nav.Link>
+      {routes.map((route) => (
+        <Link className="nav-link" to={route.path}>{route.name}</Link>
+      ))}
     </Nav>
   </Navbar>
 );
