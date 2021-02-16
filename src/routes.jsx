@@ -7,17 +7,17 @@ import index from './pages';
 import App from './pages/atividade4';
 
 const routes = [{
-  path: 'Home',
+  path: '/Home',
   name: 'Home',
   component: index,
   exact: true,
 }, {
-  path: 'Grupo',
+  path: '/Grupo',
   name: 'Grupo',
   component: caixaGrupo,
   exact: true,
 }, {
-  path: 'Atividade4',
+  path: '/Atividade4',
   name: 'Atividade 4',
   component: App,
   exact: true,
