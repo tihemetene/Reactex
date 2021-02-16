@@ -7,17 +7,17 @@ import index from './pages';
 import App from './pages/atividade4';
 
 const routes = [{
-  path: '/Home',
+  path: '/Reactex/Home',
   name: 'Home',
   component: index,
   exact: true,
 }, {
-  path: '/Grupo',
+  path: '/Reactex/Grupo',
   name: 'Grupo',
   component: caixaGrupo,
   exact: true,
 }, {
-  path: '/Atividade4',
+  path: '/Reactex/Atividade4',
   name: 'Atividade 4',
   component: App,
   exact: true,
