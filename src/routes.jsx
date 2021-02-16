@@ -7,7 +7,7 @@ import index from './pages';
 import App from './pages/atividade4';
 
 const routes = [{
-  path: '/',
+  path: '/Home',
   name: 'Home',
   component: index,
   exact: true,
