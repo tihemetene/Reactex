@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Reactex/static/css/main.53ba927a.chunk.css",
-    "main.js": "/Reactex/static/js/main.493388a3.chunk.js",
-    "main.js.map": "/Reactex/static/js/main.493388a3.chunk.js.map",
+    "main.js": "/Reactex/static/js/main.0429b386.chunk.js",
+    "main.js.map": "/Reactex/static/js/main.0429b386.chunk.js.map",
     "runtime-main.js": "/Reactex/static/js/runtime-main.b03c3d6a.js",
     "runtime-main.js.map": "/Reactex/static/js/runtime-main.b03c3d6a.js.map",
     "static/css/2.150d169a.chunk.css": "/Reactex/static/css/2.150d169a.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.2938df2a.chunk.js",
     "static/css/main.53ba927a.chunk.css",
-    "static/js/main.493388a3.chunk.js"
+    "static/js/main.0429b386.chunk.js"
   ]
 }
