@@ -7,17 +7,17 @@ import index from './pages';
 import Atividade4 from './components/Atividade4/Todo';
 
 const routes = [{
-  path: '/Home',
+  path: '/Reactex/home',
   name: 'Home',
   component: index,
   exact: true,
 }, {
-  path: '/Grupo',
+  path: '/Reactex/grupo',
   name: 'Grupo',
   component: caixaGrupo,
   exact: true,
 }, {
-  path: '/Atividade4',
+  path: '/Reactex/atividade4',
   name: 'Atividade 4',
   component: Atividade4,
   exact: true,
@@ -25,7 +25,7 @@ const routes = [{
 
 const Routes = () => (
   <BrowserRouter>
-    <Header title="PITANG 2" routes={routes} />
+    <Header title="PITANG 2" to="/Reactex/home" routes={routes} />
     <Switch>
       {routes.map(({ component, path, exact }) => (
         <Route
