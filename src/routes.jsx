@@ -4,7 +4,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import caixaGrupo from './components/Card_grupo';
 import Header from './components/Header';
 import index from './pages';
-import App from './pages/atividade4';
+import Atividade4 from './components/Atividade4/Todo';
 
 const routes = [{
   path: '/Home',
@@ -19,7 +19,7 @@ const routes = [{
 }, {
   path: '/Atividade4',
   name: 'Atividade 4',
-  component: App,
+  component: Atividade4,
   exact: true,
 }];
 
