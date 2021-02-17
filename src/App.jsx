@@ -4,7 +4,7 @@ import './components/index.css';
 
 const App = () => (
   <div className="App">
-    <Caixa info="ADD INFO" cardTitle="Home"> </Caixa>
+    <Caixa info="DÚVIDAS" cardTitle="Home"> </Caixa>
   </div>
 );
 
